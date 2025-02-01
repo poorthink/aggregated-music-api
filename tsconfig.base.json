@@ -9,6 +9,8 @@
     "noImplicitAny": false,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
+    "typeRoots": ["node_modules/@types","env.d.ts"]
   },
+  "include": ["./**/*.ts","./*.ts"],
   "exclude": ["node_modules"]
 }
