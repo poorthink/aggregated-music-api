@@ -1,0 +1,13 @@
+{
+  "name": "@ama/utils",
+  "version": "0.0.0",
+  "description": "Utils of aggregated music api",
+  "type": "module",
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsx watch --env-file=../.env index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
