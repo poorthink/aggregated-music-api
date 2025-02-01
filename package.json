@@ -1,6 +1,6 @@
 {
   "name": "aggregated-music-api",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "An aggregated music api",
   "type": "module",
   "scripts": {},
@@ -8,6 +8,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/node": "^22.13.0",
     "eslint": "^9.19.0",
     "tsup": "^8.3.6",
     "tsx": "^4.19.2",
