@@ -1,3 +1,26 @@
+export type ModuleMethod = "get" | "post" | "put" | "delete";
+
+export interface ModuleParams {
+  [key: string]: any;
+}
+export interface ModuleData {
+  [key: string]: any;
+}
+export interface ModuleHeaders {
+  "Content-Type"?:
+    | "application/json"
+    | "application/x-www-form-urlencoded"
+    | "application/x-www-form-urlencoded;charset=UTF-8";
+  Authorization?: string;
+  [key: string]: any;
+}
+export interface Module {
+  method: ModuleMethod;
+  url: string;
+  params?: ModuleParams;
+  data?: ModuleData;
+  headers?: ModuleHeaders;
+}
 export interface SimplifiedArtist {
   id: string;
   name: string;
