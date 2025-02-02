@@ -1,0 +1,16 @@
+{
+  "name": "@ama/types",
+  "version": "0.0.0",
+  "description": "Types of aggregated music api",
+  "type": "module",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "pnpm exec tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "files": [
+    "dist/**/*.d.ts"
+  ]
+}
