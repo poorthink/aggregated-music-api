@@ -28,7 +28,7 @@ export async function request<T = any>(
     return response.data as T;
   } catch (err: any) {
     if (err.name === "AxiosError") {
-      return err.response.data;
+      return err.response.data as T;
     }
     throw err;
   }

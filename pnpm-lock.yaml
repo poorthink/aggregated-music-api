@@ -39,6 +39,9 @@ importers:
 
   spotify:
     dependencies:
+      '@ama/types':
+        specifier: workspace:^
+        version: link:../types
       '@ama/utils':
         specifier: workspace:^
         version: link:../utils
