@@ -37,6 +37,14 @@ importers:
         specifier: ^3.0.4
         version: 3.0.4(@types/node@22.13.0)(tsx@4.19.2)
 
+  spotify:
+    dependencies:
+      '@ama/utils':
+        specifier: workspace:^
+        version: link:../utils
+
+  types: {}
+
   utils: {}
 
 packages:
