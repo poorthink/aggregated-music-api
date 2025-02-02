@@ -1,0 +1,14 @@
+{
+  "name": "@ama/spotify-web-api",
+  "version": "0.0.0",
+  "description": "Spotify web api of aggregated music api",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsx watch --env-file=../.env index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
