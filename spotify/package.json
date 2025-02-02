@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@ama/types": "workspace:^",
     "@ama/utils": "workspace:^"
   }
 }
